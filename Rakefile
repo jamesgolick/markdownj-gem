@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "markdownj"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{(J)Ruby wrapper around markdownj.}
+    gem.description = %Q{(J)Ruby wrapper around markdownj.}
     gem.email = "jamesgolick@gmail.com"
     gem.homepage = "http://github.com/jamesgolick/markdownj"
     gem.authors = ["James Golick"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.platform = "java"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
