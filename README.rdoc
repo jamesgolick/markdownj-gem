@@ -1,6 +1,11 @@
 = markdownj
 
-Description goes here.
+  gem install markdownj
+  require "markdownj"
+  Markdownj.to_html("some markdown string")
+
+That's all it does.
+
 
 == Note on Patches/Pull Requests
  
